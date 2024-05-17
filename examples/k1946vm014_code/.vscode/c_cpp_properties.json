@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "k1946vm014",
+            "includePath": [
+                "${workspaceRoot}/inc",
+                "/usr/local/opt/avr-gcc@11/lib"
+            ],
+            "browse": {
+                "path": []
+            },
+            "defines": [
+                "F_CPU 1000000UL",
+                "__AVR_ATmega8535__"
+            ],
+            "compilerPath": "/usr/local/bin/avr-gcc",
+            "compilerArgs": [],
+            "cStandard": "c11",
+            "cppStandard": "gnu++11",
+            "intelliSenseMode": "${default}",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
